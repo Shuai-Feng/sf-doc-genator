@@ -1,12 +1,13 @@
 {
   "name": "sf-doc-generator",
   "version": "1.0.0",
-  "description": "申通前端组件文档生成与评分 Claude Code skill，安装后自动注入 /doc-generator 命令",
+  "description": "前端组件文档生成与评分 Claude Code skill，安装后自动注入 /doc-generator 命令",
   "keywords": [
     "claude-code",
     "skill",
     "component",
-    "documentation"
+    "documentation",
+    "doc-generator"
   ],
   "license": "ISC",
   "author": "",
