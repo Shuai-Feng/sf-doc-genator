@@ -10,11 +10,16 @@
     "doc-generator"
   ],
   "license": "ISC",
-  "author": "",
+  "author": "Shuai-Feng",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shuai-Feng/sf-doc-genator.git"
+  },
+  "homepage": "https://github.com/Shuai-Feng/sf-doc-genator#readme",
   "type": "commonjs",
   "main": "index.js",
   "bin": {
-    "sf-doc-gen": "./bin/sf-doc-gen.js"
+    "sf-doc-gen": "bin/sf-doc-gen.js"
   },
   "files": [
     "bin/",
