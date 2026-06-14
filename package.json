@@ -1,0 +1,28 @@
+{
+  "name": "sf-doc-generator",
+  "version": "1.0.0",
+  "description": "申通前端组件文档生成与评分 Claude Code skill，安装后自动注入 /doc-generator 命令",
+  "keywords": [
+    "claude-code",
+    "skill",
+    "component",
+    "documentation"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "sf-doc-gen": "./bin/sf-doc-gen.js"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "skills/",
+    "index.js"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "test": "node -e \"const {list}=require('.');list();\""
+  }
+}
